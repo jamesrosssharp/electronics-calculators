@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>775</width>
-    <height>637</height>
+    <height>647</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -129,146 +129,194 @@
                  </widget>
                 </item>
                 <item>
-                 <layout class="QFormLayout" name="formLayout">
-                  <property name="fieldGrowthPolicy">
-                   <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
-                  </property>
-                  <item row="1" column="0">
-                   <widget class="QLabel" name="label_15">
-                    <property name="text">
-                     <string>ICQ</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="1" column="1">
-                   <widget class="QLineEdit" name="lineEdit">
-                    <property name="placeholderText">
-                     <string>1 mA</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="2" column="1">
-                   <widget class="QLineEdit" name="lineEdit_2">
-                    <property name="placeholderText">
-                     <string>10k Ohm</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="2" column="0">
-                   <widget class="QLabel" name="label_14">
-                    <property name="text">
-                     <string>RS</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="3" column="0">
-                   <widget class="QLabel" name="label_16">
-                    <property name="text">
-                     <string>RB</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="4" column="0">
-                   <widget class="QLabel" name="label_17">
-                    <property name="text">
-                     <string>RC</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="3" column="1">
-                   <widget class="QLineEdit" name="lineEdit_3">
-                    <property name="placeholderText">
-                     <string>470k Ohm</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="4" column="1">
-                   <widget class="QLineEdit" name="lineEdit_4">
-                    <property name="placeholderText">
-                     <string>4.7k Ohm</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="5" column="1">
-                   <widget class="QLineEdit" name="lineEdit_5">
-                    <property name="placeholderText">
-                     <string>4.7k Ohm</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="6" column="1">
-                   <widget class="QLineEdit" name="lineEdit_6">
-                    <property name="placeholderText">
-                     <string>100</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="7" column="1">
-                   <widget class="QLineEdit" name="lineEdit_7">
-                    <property name="enabled">
-                     <bool>true</bool>
-                    </property>
-                    <property name="readOnly">
-                     <bool>true</bool>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="8" column="1">
-                   <widget class="QLineEdit" name="lineEdit_8">
-                    <property name="enabled">
-                     <bool>true</bool>
-                    </property>
-                    <property name="readOnly">
-                     <bool>true</bool>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="9" column="1">
-                   <widget class="QLineEdit" name="lineEdit_9">
-                    <property name="enabled">
-                     <bool>true</bool>
-                    </property>
-                    <property name="readOnly">
-                     <bool>true</bool>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="5" column="0">
-                   <widget class="QLabel" name="label_18">
-                    <property name="text">
-                     <string>RL</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="6" column="0">
-                   <widget class="QLabel" name="label_19">
-                    <property name="text">
-                     <string>Beta</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="7" column="0">
-                   <widget class="QLabel" name="label_20">
-                    <property name="text">
-                     <string>Av</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="8" column="0">
-                   <widget class="QLabel" name="label_21">
-                    <property name="text">
-                     <string>Zo</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="9" column="0">
-                   <widget class="QLabel" name="label_22">
-                    <property name="text">
-                     <string>Zin</string>
-                    </property>
-                   </widget>
-                  </item>
-                 </layout>
+                 <widget class="QFrame" name="frame">
+                  <layout class="QGridLayout" name="gridLayout_2">
+                   <item row="1" column="0">
+                    <widget class="QLabel" name="label_14">
+                     <property name="text">
+                      <string>RS</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="1">
+                    <widget class="QLineEdit" name="RS_Edit">
+                     <property name="placeholderText">
+                      <string>10</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="0">
+                    <widget class="QLabel" name="label_16">
+                     <property name="text">
+                      <string>RB</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="4" column="1">
+                    <widget class="QLineEdit" name="RL_Edit">
+                     <property name="placeholderText">
+                      <string>4.7</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="0">
+                    <widget class="QLabel" name="label_15">
+                     <property name="text">
+                      <string>ICQ</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="1">
+                    <widget class="QLineEdit" name="ICQ_Edit">
+                     <property name="placeholderText">
+                      <string>1</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="1">
+                    <widget class="QLineEdit" name="RB_Edit">
+                     <property name="placeholderText">
+                      <string>470</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="7" column="0">
+                    <widget class="QLabel" name="label_21">
+                     <property name="text">
+                      <string>Zo</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="3" column="0">
+                    <widget class="QLabel" name="label_17">
+                     <property name="text">
+                      <string>RC</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="3" column="1">
+                    <widget class="QLineEdit" name="RC_Edit">
+                     <property name="placeholderText">
+                      <string>4.7</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="4" column="0">
+                    <widget class="QLabel" name="label_18">
+                     <property name="text">
+                      <string>RL</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="5" column="0">
+                    <widget class="QLabel" name="label_19">
+                     <property name="text">
+                      <string>Beta</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="5" column="1">
+                    <widget class="QLineEdit" name="Beta_Edit">
+                     <property name="placeholderText">
+                      <string>100</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="6" column="0">
+                    <widget class="QLabel" name="label_20">
+                     <property name="text">
+                      <string>Av</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="6" column="1">
+                    <widget class="QLineEdit" name="Av_Edit">
+                     <property name="enabled">
+                      <bool>true</bool>
+                     </property>
+                     <property name="readOnly">
+                      <bool>true</bool>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="7" column="1">
+                    <widget class="QLineEdit" name="Zo_Edit">
+                     <property name="enabled">
+                      <bool>true</bool>
+                     </property>
+                     <property name="readOnly">
+                      <bool>true</bool>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="8" column="0">
+                    <widget class="QLabel" name="label_22">
+                     <property name="text">
+                      <string>Zin</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="8" column="1">
+                    <widget class="QLineEdit" name="Zin_Edit">
+                     <property name="enabled">
+                      <bool>true</bool>
+                     </property>
+                     <property name="readOnly">
+                      <bool>true</bool>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="2">
+                    <widget class="QLabel" name="label">
+                     <property name="text">
+                      <string>mA</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="2">
+                    <widget class="QLabel" name="label_2">
+                     <property name="text">
+                      <string>k Ohm</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="2">
+                    <widget class="QLabel" name="label_3">
+                     <property name="text">
+                      <string>k Ohm</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="3" column="2">
+                    <widget class="QLabel" name="label_4">
+                     <property name="text">
+                      <string>k Ohm</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="4" column="2">
+                    <widget class="QLabel" name="label_5">
+                     <property name="text">
+                      <string>k Ohm</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="7" column="2">
+                    <widget class="QLabel" name="label_6">
+                     <property name="text">
+                      <string>k Ohm</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="8" column="2">
+                    <widget class="QLabel" name="label_23">
+                     <property name="text">
+                      <string>k Ohm</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
                 </item>
                </layout>
               </item>
@@ -318,101 +366,112 @@
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
+ <tabstops>
+  <tabstop>ICQ_Edit</tabstop>
+  <tabstop>RS_Edit</tabstop>
+  <tabstop>RB_Edit</tabstop>
+  <tabstop>RC_Edit</tabstop>
+  <tabstop>RL_Edit</tabstop>
+  <tabstop>Beta_Edit</tabstop>
+  <tabstop>Av_Edit</tabstop>
+  <tabstop>Zo_Edit</tabstop>
+  <tabstop>Zin_Edit</tabstop>
+ </tabstops>
  <resources/>
  <connections>
   <connection>
-   <sender>lineEdit</sender>
-   <signal>textChanged(QString)</signal>
+   <sender>ICQ_Edit</sender>
+   <signal>editingFinished()</signal>
    <receiver>CommonEmitter</receiver>
    <slot>recalculate()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>629</x>
-     <y>80</y>
+     <x>604</x>
+     <y>82</y>
     </hint>
     <hint type="destinationlabel">
      <x>387</x>
-     <y>318</y>
+     <y>323</y>
     </hint>
    </hints>
   </connection>
   <connection>
-   <sender>lineEdit_2</sender>
-   <signal>textChanged(QString)</signal>
+   <sender>RB_Edit</sender>
+   <signal>editingFinished()</signal>
    <receiver>CommonEmitter</receiver>
    <slot>recalculate()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>629</x>
-     <y>117</y>
+     <x>604</x>
+     <y>158</y>
     </hint>
     <hint type="destinationlabel">
      <x>387</x>
-     <y>318</y>
+     <y>323</y>
     </hint>
    </hints>
   </connection>
   <connection>
-   <sender>lineEdit_3</sender>
-   <signal>textChanged(QString)</signal>
+   <sender>RS_Edit</sender>
+   <signal>editingFinished()</signal>
    <receiver>CommonEmitter</receiver>
    <slot>recalculate()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>629</x>
-     <y>155</y>
+     <x>604</x>
+     <y>120</y>
     </hint>
     <hint type="destinationlabel">
      <x>387</x>
-     <y>318</y>
+     <y>323</y>
     </hint>
    </hints>
   </connection>
   <connection>
-   <sender>lineEdit_4</sender>
-   <signal>textChanged(QString)</signal>
+   <sender>RL_Edit</sender>
+   <signal>editingFinished()</signal>
    <receiver>CommonEmitter</receiver>
    <slot>recalculate()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>629</x>
-     <y>192</y>
+     <x>604</x>
+     <y>234</y>
     </hint>
     <hint type="destinationlabel">
      <x>387</x>
-     <y>318</y>
+     <y>323</y>
     </hint>
    </hints>
   </connection>
   <connection>
-   <sender>lineEdit_5</sender>
-   <signal>textChanged(QString)</signal>
+   <sender>RC_Edit</sender>
+   <signal>editingFinished()</signal>
    <receiver>CommonEmitter</receiver>
    <slot>recalculate()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>629</x>
-     <y>229</y>
+     <x>604</x>
+     <y>196</y>
     </hint>
     <hint type="destinationlabel">
      <x>387</x>
-     <y>318</y>
+     <y>323</y>
     </hint>
    </hints>
   </connection>
   <connection>
-   <sender>lineEdit_6</sender>
-   <signal>textChanged(QString)</signal>
+   <sender>Beta_Edit</sender>
+   <signal>editingFinished()</signal>
    <receiver>CommonEmitter</receiver>
    <slot>recalculate()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>629</x>
-     <y>267</y>
+     <x>604</x>
+     <y>272</y>
     </hint>
     <hint type="destinationlabel">
      <x>387</x>
-     <y>318</y>
+     <y>323</y>
     </hint>
    </hints>
   </connection>
