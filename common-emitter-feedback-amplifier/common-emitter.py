@@ -48,12 +48,12 @@ class MainApp(QtGui.QMainWindow):
 
             Zin = Zin_num * (1.0 / Zin_denom) / 1000.0
     
-            self.ui.Zin_Edit.setText("%1.1f" % Zin)
+            self.ui.Zin_Edit.setText("%1.3f" % Zin)
 
             Rot = (RB*RS + RB*rpi + RS*rpi) / ((Beta + 1)*RS + rpi)
             Zo = 1.0 / ((1.0 / RC) + (1.0 / Rot)) / 1000.0 
 
-            self.ui.Zo_Edit.setText("%1.1f" % Zo)
+            self.ui.Zo_Edit.setText("%1.3f" % Zo)
 
 
 
